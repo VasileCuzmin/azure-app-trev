@@ -6,14 +6,18 @@ namespace azure_app_trev.Pages;
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
+    private readonly IConfiguration _configuration;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
     {
         _logger = logger;
+        _configuration = configuration;
     }
 
     public void OnGet()
     {
-
+        var greeting = _configuration["Greeting"];
+        _logger.LogInformation("Greeting: {Greeting}", greeting);
+        ViewData["Greeting"] = greeting;
     }
 }
