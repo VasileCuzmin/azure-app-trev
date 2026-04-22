@@ -68,3 +68,10 @@ Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
+obj/azure-app-trev.csproj.nuget.dgspec.json
+obj/azure-app-trev.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net9.0/azure-app-trev.AssemblyInfo.cs
+obj/Debug/net9.0/azure-app-trev.AssemblyInfoInputs.cache
+obj/Debug/net9.0/azure-app-trev.assets.cache
