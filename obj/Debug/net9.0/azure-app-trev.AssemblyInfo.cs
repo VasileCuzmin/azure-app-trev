@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("azure-app-trev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd2fef1268038f9f8ef16526d7f375f4bc5e2fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("azure-app-trev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("azure-app-trev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

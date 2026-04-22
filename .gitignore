@@ -1,0 +1,70 @@
+# ==========================================
+# General Web Application .gitignore
+# ==========================================
+
+# --- 1. Build & Deployment Artifacts ---
+# Ignores your local zip deployments and compiled output
+publish.zip
+*.zip
+*.tar.gz
+dist/
+build/
+out/
+publish/
+
+# --- 2. Secrets & Environment Variables ---
+# CRITICAL: Never commit credentials or local overrides
+.env
+.env.*
+*.local
+secrets.json
+appsettings.Development.json
+
+# --- 3. Node.js / Frontend / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+
+# --- 4. Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# --- 5. .NET / C# ---
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- 6. Logs & Databases ---
+logs/
+*.log
+*.sqlite
+*.sqlite3
+
+# --- 7. OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- 8. IDEs & Editors ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
