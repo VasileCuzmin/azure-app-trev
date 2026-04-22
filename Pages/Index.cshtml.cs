@@ -17,7 +17,6 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         var greeting = _configuration["Greeting"];
-        _logger.LogInformation("Greeting: {Greeting}", greeting);
         ViewData["Greeting"] = greeting;
     }
 }
