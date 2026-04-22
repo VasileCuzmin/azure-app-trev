@@ -1,0 +1,7 @@
+C:\WORK\azure-app-trev\publish\azure-app-trev.exe
+C:\WORK\azure-app-trev\publish\appsettings.Development.json
+C:\WORK\azure-app-trev\publish\appsettings.json
+C:\WORK\azure-app-trev\publish\azure-app-trev.dll
+C:\WORK\azure-app-trev\publish\azure-app-trev.deps.json
+C:\WORK\azure-app-trev\publish\azure-app-trev.runtimeconfig.json
+C:\WORK\azure-app-trev\publish\azure-app-trev.pdb
